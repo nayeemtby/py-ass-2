@@ -6,7 +6,7 @@ class Counter:
         self.cinema = cinema
 
     def __showOptions(self):
-        print('1. View Available Shows\n2. View Available Seats\n3. Book Tickets\n4.Exit')
+        print('1. View Available Shows\n2. View Available Seats\n3. Book Tickets\n4. Exit')
 
     def __viewShows(self):
         hall = self.cinema.primaryHall
